@@ -1,5 +1,5 @@
-function square (a, a) {
+function square (a) {
     return a * a;
 }
 
-document.getElementById("result").innerHTML = square (5, 5);
+document.getElementById("result").innerHTML = square (5);
